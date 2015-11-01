@@ -1,4 +1,6 @@
-console.log("Hola mundo");
+
+function loaded(){
+	console.log("Hola mundo");
 var myJson={
   name: "Chipi",
   secondName: "Martínez Santibáñez",
@@ -271,3 +273,5 @@ for(var j=myJson.stars;j<5;j++){
   document.getElementById("Calification").childNodes[0].childNodes[j].setAttribute("class","CommentStar");
 }
 document.getElementById("Calification").childNodes[0].setAttribute("class","CommentStars");
+	
+} // end funtion
