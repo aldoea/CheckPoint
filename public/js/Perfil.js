@@ -39,10 +39,10 @@ var myJson={
   stars: 4
 };
 var onResize=function(){
-	console.log(document);
   document.getElementById("Content").style.height=window.innerHeight-62+"px";
 };
 window.addEventListener("resize",onResize);
+console.log(document);
 document.getElementById("Name").innerHTML=myJson.name+" "+myJson.secondName;
 document.getElementById("Career").innerHTML=myJson.career;
 document.getElementById("Picture").src=myJson.picture;
