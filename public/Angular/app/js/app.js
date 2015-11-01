@@ -15,7 +15,13 @@ function($stateProvider, $urlRouterProvider) {
       templateUrl: '/home.html',
       controller: 'MainCtrl'
     });
-
+	
+	$stateProvider
+		.state('posts', {
+		  url: '/posts',
+		  templateUrl: '/posts.html',
+		  controller: 'PostsCtrl'
+		});
   $urlRouterProvider.otherwise('home');
 }]);
 
@@ -23,4 +29,12 @@ app.controller('MainCtrl', [
 '$scope',
 function($scope){
   console.log("Hello angular!");
+}]);
+
+app.controller('PostsCtrl', [
+'$scope',
+'$stateParams',
+'posts',
+function($scope, $stateParams, posts){
+
 }]);
