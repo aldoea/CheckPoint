@@ -133,5 +133,14 @@
  display: inline-block;
 }
 .bottom-home{
-	width : 100%;
+	width : 100% !important; 
+}
+
+.AvatarCircle{
+ width: 40px;
+ height: 40px;
+ border-radius: 50%;
+}
+h4{
+ padding-top: 40px;
 }
