@@ -73,6 +73,11 @@
     top: -3px;    
 }
 
+.search-button{
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+	
+}
 	a:link {text-decoration:none; color: white;} /* Link no visitado*/
 	a:visited {text-decoration:none; color:white} /*Link visitado*/
 
