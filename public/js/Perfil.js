@@ -43,7 +43,7 @@ var onResize=function(){
 };
 window.addEventListener("resize",onResize);
 
-angular.element("Name").innerHTML=myJson.name+" "+myJson.secondName;
+angular.element("#Name").innerHTML=myJson.name+" "+myJson.secondName;
 document.getElementById("Career").innerHTML=myJson.career;
 document.getElementById("Picture").src=myJson.picture;
 if(myJson.medals.gold!=0){
