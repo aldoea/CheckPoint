@@ -41,7 +41,7 @@ app.controller('PostsCtrl', [
 '$scope',
 '$stateParams',
 function($scope, $stateParams){
-	console.log("Another controler")
+	console.log("Another controler");
 }]);
 
 app.controller('MainCtrl', [

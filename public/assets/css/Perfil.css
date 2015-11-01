@@ -1,0 +1,239 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+@font-face {
+  font-family: Aileron;
+  src: url(Aileron-Regular.otf);
+}
+.AvatarCircle{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+body{
+  font-family: Aileron;
+  padding: 0;
+  margin: 0;
+}
+#Bottom{
+  background-color: rgb(34,34,34);
+  height: 340px;
+  width: 80%;
+  padding-left: 10%;
+  padding-right: 10%;
+  color: white;
+}
+.BottomSection{
+  width: 24%;
+  display: inline-block;
+}
+#Bronze{
+  background-color: rgb(205, 127, 50);
+}
+#Calification{
+
+}
+#Career{
+  margin: 0;
+}
+#Comments{
+ padding-right: 100px;
+ position: relative;
+  bottom: 10px; 
+  height: 270px;
+  text-align: justify;
+
+}
+.CommentAuthor{
+  margin-top: 0;
+}
+.CommentStar{
+  width: 25px;
+}
+.CommentStars{
+  display: inline-block;
+  padding-left: 8px;
+}
+.CommentText{
+  margin-top: 0;
+}
+.CommentTitle{
+  text-transform: uppercase;
+  color: rgb(194,70,36);
+  display: inline-block;
+  margin: 0;
+}
+#Contact{
+  position: absolute;
+  bottom: 10px; 
+  width: 50%;
+  height: 300px;
+  text-align: justify;
+  padding: 20px;
+}
+#Content{
+  position: fixed;
+  top: 62px;
+  width: 100%;
+  overflow-y: auto;
+  background-color: #f2f2f2;
+}
+#Gold{
+  background-color: gold;
+}
+h1{
+  color: rgb(194,70,36);
+  margin: 0;
+}
+h3{
+
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  text-transform: uppercase;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 700;
+}
+h4{
+  padding-top: 40px;
+}
+p{
+  font-family: 'Open Sans', sans-serif;
+}
+#Investigations{
+ padding-right: 100px;
+}
+
+#Languages{
+ padding-right: 100px;
+}
+.LanguageMedal{
+  width: 40px;
+  height: 40px;
+}
+.LanguageText{
+  line-height: 40px;
+}
+#Left{
+  width: 40%;
+  padding-top: 12px;
+  padding-left: 20%;
+  background-color: rgb(246,246,246);
+  display: inline-block;
+}
+#Logo{
+  height: 100%;
+  margin-left: 20%;
+}
+#Medals{
+  padding: 12px;
+}
+.Medal{
+  border-radius: 50%;
+  display: inline-block;
+  height: 56px;
+  width: 56px;
+  margin-right: 12px;
+  line-height: 56px;
+  text-align: center;
+}
+#Name{
+
+}
+#NewComment{
+  border-top: 1px solid gray;
+}
+#Picture{
+  width: 92%;
+  margin-top: 4%;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+#PictureSquare{
+  width: 60%;
+  margin: 0 auto;
+  border: 1px solid white;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+#Projects{
+  padding-right: 100px;
+}
+#Right{
+  width: 20%;
+  background-color: rgb(194,70,36);
+  padding-right: 20%;
+  text-align: center;
+  color: white;
+  display: inline-block;
+  position: absolute;
+  height: 100%;
+}
+.Section{
+  border-right: 1px solid rgb(194,70,36);
+  display: inline-block;
+  padding: 0 12px;
+}
+.Section:hover{
+  color: rgb(194,70,36);
+  cursor: pointer;
+}
+#Silver{
+  background-color: silver;
+}
+#Skills{
+
+}
+.Skill{
+  height: 20px;
+  line-height: 20px;
+  text-align: left;
+}
+.SkillContainer{
+  background-color: white;
+  border-radius: 5px; 
+  height: 10px;
+  width: 50%;
+  display: inline-block;
+  float: right;
+  margin-top: 5px;
+}
+.SkillPower{
+  background-color: rgb(111,33,11);
+  border-radius: 5px; 
+  height: 10px;
+}
+#Title{
+  font-size: 1.5em;
+  padding-left: 12px;
+}
+#TopBar{
+  height: 61px;
+  background-color: rgb(236,236,236);
+  line-height: 61px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 4;
+  left: 0px;
+  border-bottom: 1px solid rgb(225,225,225);
+}
+#TopBarSections{
+  margin-left: 36px;
+  display: inline-block;
+  position: absolute;
+}
+#rigtfix{
+  height: 1px;
+  background-color: rgb(164,164,164);
+  width: 149.999%;
+  left:-50%;
+  position: relative;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+#leftfix{
+  height: 1px;
+  background-color: rgb(255,161,134);
+ 
+  position: absolute;
+  bottom: 320px; 
+  width: 100%
+}
