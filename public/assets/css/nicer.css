@@ -144,3 +144,14 @@
 h4{
  padding-top: 40px;
 }
+.demo{
+	max-width: 70%;
+	text-align: center;
+}
+.boom{
+	text-align: center;
+	font-size: 60px;
+	font-weight: bolder;
+	color: #C24624
+	
+}
