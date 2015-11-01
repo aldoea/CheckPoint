@@ -77,6 +77,10 @@
 	border-top-right-radius: 20px;
 	border-bottom-right-radius: 20px;
 	float: right;
+	left: -10px;
+    position: relative;
+    top: -5px;
+    font-size: 25px;
 }
 	a:link {text-decoration:none; color: white;} /* Link no visitado*/
 	a:visited {text-decoration:none; color:white} /*Link visitado*/
@@ -103,11 +107,11 @@
 }
 
 #search{
-	width: 70%;
+	width: 75%;
     border: 3px solid rgb(236,236,236);   
     float: right;
     height: 50px;
     position: relative;
-    left: 5px;    
+    left: -5px;    
     top: -3px;    
 }
