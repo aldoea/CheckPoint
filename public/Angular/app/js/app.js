@@ -22,6 +22,12 @@ function($stateProvider, $urlRouterProvider) {
 		  templateUrl: '/start.html',
 		  controller: 'PostsCtrl'
 		});
+	$stateProvider
+		.state('perfil', {
+		  url: '/perfil',
+		  templateUrl: '/perfil.html',
+		  controller: 'PerfilCtrl'
+		});
   $urlRouterProvider.otherwise('home');
 }]);
 
@@ -36,4 +42,17 @@ app.controller('PostsCtrl', [
 '$stateParams',
 function($scope, $stateParams){
 	console.log("Another controler")
+}]);
+
+app.controller('MainCtrl', [
+'$scope',
+function($scope){
+  console.log("Hello angular!");
+}]);
+
+app.controller('PerfilCtrl', [
+'$scope',
+'$stateParams',
+function($scope, $stateParams){
+	console.log("Another controler Chipi")
 }]);
