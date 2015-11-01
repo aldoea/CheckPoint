@@ -114,6 +114,10 @@
     position: relative;
     left: -25px;    
     top: -3px;    
+	text-align: center;
+	-ms-text-justify: justify;
+	text-justify: justify;
+	vertical-align: middle;	
 }
 
 #Bottom{
@@ -127,4 +131,7 @@
 .BottomSection{
  width: 24%;
  display: inline-block;
+}
+.bottom-home{
+	width : 100%;
 }
