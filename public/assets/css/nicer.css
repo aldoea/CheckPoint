@@ -57,6 +57,7 @@
 	margin-top: 100px;
 	margin-left: 20%;
 	margin-bottom: 20px;
+	height: 50px;
 }
 
 	a:link {text-decoration:none; color: white;} /* Link no visitado*/
@@ -84,7 +85,8 @@
 }
 
 #search{
-	width: 100px;
+	width: 50%;
 	border: 3px solid rgb(236,236,236);
 	border-radius: 20px;
+	float: left;
 }
