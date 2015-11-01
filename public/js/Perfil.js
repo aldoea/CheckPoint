@@ -41,7 +41,6 @@ var myJson={
 var onResize=function(){
   document.getElementById("Content").style.height=window.innerHeight-62+"px";
 };
-onResize();
 window.addEventListener("resize",onResize);
 document.getElementById("Name").innerHTML=myJson.name+" "+myJson.secondName;
 document.getElementById("Career").innerHTML=myJson.career;
