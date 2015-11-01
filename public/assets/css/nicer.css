@@ -77,9 +77,9 @@
 	border-top-right-radius: 20px;
 	border-bottom-right-radius: 20px;
 	float: right;
-	left: -10px;
+	left: -15px;
     position: relative;
-    top: -5px;
+    top: -7px;
     font-size: 25px;
 }
 	a:link {text-decoration:none; color: white;} /* Link no visitado*/
@@ -114,4 +114,17 @@
     position: relative;
     left: -25px;    
     top: -3px;    
+}
+
+#Bottom{
+ background-color: rgb(34,34,34);
+ height: 340px;
+ width: 80%;
+ padding-left: 10%;
+ padding-right: 10%;
+ color: white;
+}
+.BottomSection{
+ width: 24%;
+ display: inline-block;
 }
