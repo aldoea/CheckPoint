@@ -42,7 +42,7 @@ var onResize=function(){
   document.getElementById("Content").style.height=window.innerHeight-62+"px";
 };
 window.addEventListener("resize",onResize);
-console.log(document);
+console.log(document.getElementById("Name"));
 document.getElementById("Name").innerHTML=myJson.name+" "+myJson.secondName;
 document.getElementById("Career").innerHTML=myJson.career;
 document.getElementById("Picture").src=myJson.picture;
