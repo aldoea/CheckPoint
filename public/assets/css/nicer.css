@@ -50,6 +50,15 @@
     color: rgb(194,70,36);
 }
 
+.search-bar{
+	border: 3px solid rgb(236,236,236);
+	width: 60%;
+	border-radius: 20px;
+	margin-top: 100px;
+	margin-left: 20%;
+	margin-bottom: 20px;
+}
+
 	a:link {text-decoration:none; color: white;} /* Link no visitado*/
 	a:visited {text-decoration:none; color:white} /*Link visitado*/
 
@@ -72,4 +81,10 @@
   margin-left: 36px;
   display: inline-block;
   position: absolute;
+}
+
+#search{
+	width: 100px;
+	border: 3px solid rgb(236,236,236);
+	border-radius: 20px;
 }
