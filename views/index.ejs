@@ -1,15 +1,57 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
-  <head>
-    <title>WildGeek</title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
-	  <link rel="shortcut icon" href="/img/logo.png">
-  </head>
-  <body>
-    <div>
-		<img src="/img/logiux.png">	
-  	</div>
-  	<h1>WildGeek</h1>
-    <p>Welcome to WildGeek (: <%= title %></p>	  
-  </body>
+	<head>
+		<title>Tester</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="/assets/css/main.css" />
+		<link rel="stylesheet" href="/assets/css/nicer.css" />
+		<link rel="shortcut icon" href="/images/logo.png">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	  	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+	</head>
+	<body class="loading" >
+	
+		<div id="wrapper">
+			<div id="bg"></div>
+			<div id="overlay"></div>
+			<div id="main">
+
+				<!-- Header -->									
+					<header class="head" id="header">
+						
+						<span class="action-buttons"><i class="fa fa-sign-out"></i>Inicia Sesión</span>			
+						<span class="action-buttons"><i class="fa fa-key"></i>Crear cuenta</span>
+						<div class="get-up">
+							<h1><img class="welcome-img" src="images/Logo.png"></h1>
+							<p class="eslogan">Encuentra al programador que desarrolle tus ideas</p>
+						</div>
+						<div class="to-white">
+							<h3>Empieza ahora!</h3>
+							<a href="home/home0.html"><i class="fa fa-chevron-down"></i></a>
+						</div>
+						<!--<h1><a href="home/home.html" ><span class="label"><h2>Iniciar de una vez Wild Geek</h2></span></a></h1>-->
+					</header>
+
+
+				<!-- Footer -->
+					<footer id="footer">
+						<span class="to-white">&copy; Desarrollo de Indecizos HackBajio</span>
+						<span class="to-white">&copy; Powered By  <a href="http://tecnointelecto.blogspot.mx">HTML5 UP</a>.</span>
+					</footer>
+
+			</div>
+		</div>
+		<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+		<script>
+			window.onload = function() { document.body.className = ''; }
+			window.ontouchmove = function() { return false; }
+			window.onorientationchange = function() { document.body.scrollTop = 0; }
+		</script>
+	</body>
 </html>

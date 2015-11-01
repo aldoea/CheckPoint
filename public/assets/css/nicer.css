@@ -1,0 +1,72 @@
+.welcome-img{
+	vertical-align: center; 
+	width: 400px;
+	position: relative;
+    left: 130px;
+    /*top: -120px;*/
+}
+ .get-up{
+ 	position: relative;
+ 	top: -120px;
+ }
+.eslogan{
+	font-size: 30px !important;
+    color: #fcf8e3 !important;
+    opacity: 1 !important;
+}
+
+.action-buttons{
+	border: 3px solid white;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    float: right;
+    position: relative;
+    top: -240px;
+    right: -1px;
+    color: white;
+    padding-left: 10px;
+    margin-left: 20px;
+}
+
+.head{
+	top: 3em !important;
+}
+.loop-img{
+	max-height: 350px;
+	border-radius: 25px;
+}
+
+.to-white{
+	color: white;
+
+}
+.Section{
+  border-right: 1px solid rgb(194,70,36);
+  display: inline-block;
+  padding: 0 12px;
+}
+
+	a:link {text-decoration:none; color: white;} /* Link no visitado*/
+	a:visited {text-decoration:none; color:white} /*Link visitado*/
+
+#TopBar{
+  height: 61px;
+  background-color: rgb(236,236,236);
+  line-height: 61px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 4;
+  left: 0px;
+  border-bottom: 1px solid rgb(225,225,225);
+}
+#Logo{
+  height: 100%;
+  margin-left: 20%;
+}
+#TopBarSections{
+  margin-left: 36px;
+  display: inline-block;
+  position: absolute;
+}
