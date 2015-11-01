@@ -17,9 +17,9 @@ function($stateProvider, $urlRouterProvider) {
     });
 	
 	$stateProvider
-		.state('posts', {
-		  url: '/posts',
-		  templateUrl: '/posts.html',
+		.state('start', {
+		  url: '/start',
+		  templateUrl: '/start.html',
 		  controller: 'PostsCtrl'
 		});
   $urlRouterProvider.otherwise('home');
@@ -35,5 +35,5 @@ app.controller('PostsCtrl', [
 '$scope',
 '$stateParams',
 function($scope, $stateParams){
-
+	console.log("Another controler")
 }]);
