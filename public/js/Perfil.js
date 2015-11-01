@@ -39,6 +39,7 @@ var myJson={
   stars: 4
 };
 var onResize=function(){
+	console.log(document);
   document.getElementById("Content").style.height=window.innerHeight-62+"px";
 };
 window.addEventListener("resize",onResize);
