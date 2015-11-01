@@ -13,13 +13,16 @@
 	  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	  	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 		 <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.10/angular.min.js"></script>
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.10/angular-ui-router.js"></script>
     	<script src="/Angular/app/js/app.js"></script>
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 	</head>
 	<body ng-app="flapperNews" ng-controller="MainCtrl" class="loading" >
-	
-		<div id="wrapper">
+		<ui-view></ui-view>
+		
+		<script type="text/ng-template" id="/home.html">
+		  <div id="wrapper">
 			<div id="bg"></div>
 			<div id="overlay"></div>
 			<div id="main">
@@ -49,11 +52,11 @@
 
 			</div>
 		</div>
+		</script>
+		
 		<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 		<script>
-			window.onload = function() { document.body.className = ''; }
-			window.ontouchmove = function() { return false; }
-			window.onorientationchange = function() { document.body.scrollTop = 0; }
+			
 		</script>
 	</body>
 </html>
