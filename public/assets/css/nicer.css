@@ -63,7 +63,14 @@
 .search-select{
 	float: left;
 	border-radius: 20px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-color: rgb(236,236,236);
 	height: 50px;
+	width: 20%;
+	position: relative;
+    right: 5px;    
+    top: -3px;    
 }
 
 	a:link {text-decoration:none; color: white;} /* Link no visitado*/
@@ -91,8 +98,11 @@
 }
 
 #search{
-	width: 50%;
-	border: 3px solid rgb(236,236,236);
-	border-radius: 20px;
-	float: right;
+	width: 70%;
+    border: 3px solid rgb(236,236,236);   
+    float: right;
+    height: 50px;
+    position: relative;
+    left: 5px;    
+    top: -3px;    
 }
