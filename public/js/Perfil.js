@@ -42,7 +42,7 @@ var onResize=function(){
   document.getElementById("Content").style.height=window.innerHeight-62+"px";
 };
 window.addEventListener("resize",onResize);
-console.log(document.getElementById("Name"));
+/*
 document.getElementById("Name").innerHTML=myJson.name+" "+myJson.secondName;
 document.getElementById("Career").innerHTML=myJson.career;
 document.getElementById("Picture").src=myJson.picture;
@@ -270,4 +270,4 @@ for(var j=myJson.stars;j<5;j++){
   document.getElementById("Calification").childNodes[0].childNodes[j].src="WhiteEmptyStar.png";
   document.getElementById("Calification").childNodes[0].childNodes[j].setAttribute("class","CommentStar");
 }
-document.getElementById("Calification").childNodes[0].setAttribute("class","CommentStars");
+document.getElementById("Calification").childNodes[0].setAttribute("class","CommentStars");*/
